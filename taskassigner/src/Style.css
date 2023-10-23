@@ -1,0 +1,121 @@
+.login_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    body {
+        overflow-x: hidden;
+        background: url(Images/todo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -200px;
+        background-blend-mode: darken;
+        background-color: #0006 !important;
+    }
+
+
+.table_bg{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.login_div {
+    width: 33%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px;
+}
+.login_btn{
+    width: 33%;
+    margin-top: 15px;
+}
+
+.submit_div {
+    text-align: center;
+}
+
+.margin_space_textboxes {
+    margin-bottom: 15px;
+}
+
+.margin_right {
+    margin-right: 15px;
+
+}
+
+.default {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links {
+    color: red;
+    text-decoration: none;
+}
+
+.error_div {
+    border: 1px solid red !important;
+}
+.page_inactive{
+    background-color: white !important;
+    border: 1px solid black !important;
+    color: black;
+}
+
+.page_active {
+    background-color: #0d6efd !important;
+    color: white;
+    border: 1px solid black !important;
+}
+.box_shadow_cards{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.modal-content {
+    animation-name: mailmunchswing;
+    margin-top: 100px;
+ 
+    transform-origin: top center;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+.bgcolor_nav{
+    background-color: #ECF2FF !important;
+}
+.sort_class{
+    cursor: pointer;
+}
+
+@keyframes mailmunchswing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 15deg);
+        -ms-transform: rotate3d(0, 0, 1, 15deg);
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -10deg);
+        -ms-transform: rotate3d(0, 0, 1, -10deg);
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        -ms-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -5deg);
+        -ms-transform: rotate3d(0, 0, 1, -5deg);
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        -ms-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
