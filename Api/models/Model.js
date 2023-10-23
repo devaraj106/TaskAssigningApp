@@ -4,7 +4,7 @@ const mongoose=require('mongoose');
 const userschema=new mongoose.Schema({
     identifier:{type:String,required:false},
     firstName:String,
-    
+     
     lastName:String,
     phoneNumber:{type:Number,required:false},
     age:{type: Number, min: 1, max: 65},

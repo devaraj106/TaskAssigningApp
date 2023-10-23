@@ -14,7 +14,7 @@ app.use(cors());
 {
 
 
-  
+   
 try{
   console.log("in")
     mongoose.set("strictQuery", false);
