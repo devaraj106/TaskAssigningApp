@@ -12,6 +12,9 @@ app.use(cors());
 
  async function DbConnect()
 {
+
+
+  
 try{
   console.log("in")
     mongoose.set("strictQuery", false);

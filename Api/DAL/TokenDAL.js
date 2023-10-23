@@ -1,6 +1,8 @@
 const jwt=require('jsonwebtoken');
 var {UserResponse}=require('../models/Model.js')
-require('dotenv');
+require('dotenv'); 
+
+
 
 const GenerateToken=async(user)=>{
     var token = jwt.sign(user,process.env.SECRETKEY,{expiresIn:'1d'});

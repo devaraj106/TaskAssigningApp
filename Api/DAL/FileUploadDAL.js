@@ -1,6 +1,6 @@
 
 
-  const fileupload=async(req, res) => {
+  const fileupload=async(req, res) => { 
     var fileResponse={Path:"",orginalName:""}
     console.log(req.file)
     fileResponse={responseCode:'200',Path:req.file.filename,orginalName:req.file.originalname}
